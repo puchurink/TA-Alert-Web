@@ -1,0 +1,139 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 5px #80808040;
+    border-radius: 30px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.title {
+    color: black;
+    font-size: 60px;
+    margin-left: 20px;
+}
+
+nav {
+    display: flex;
+}
+
+.menu-item {
+    list-style: none;
+    padding: 10px;
+    margin-left: 60px;
+    font-size: 30px;
+    color: black;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 5px #80808040;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2)
+}
+
+.card__textbox {
+    width: 100%;
+    height: auto;
+    padding: 20px 18px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.card__textbox {
+    margin-top: 10px;
+}
+
+.card__titletext {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 125%;
+    color: #000000;
+}
+
+.card__titletext1 {
+    font-size: 50px;
+}
+
+.card__maintext1 {
+    font-size: 25px;
+    line-height: 150%;
+    color: #000000;
+}
+
+hr {
+    border-top: 5px dotted;
+}
+
+.card__titletext2 {
+    font-size: 50px;
+    margin-left: 20px;
+}
+
+.card__maintext2 {
+    font-size: 40px;
+    color: black;
+    line-height: 100px;
+    margin-left: 10px;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.support {
+    margin-left: 100px;
+}
+
+.cardI {
+    width: 45%;
+    height: auto;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 5px #80808040;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    aspect-ratio: 1/1;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.card__maintextI {
+    font-size: 80px;
+    margin-left: 100px;
+    margin-top: 400px;
+    color: black;
+}
+
+.cardC {
+    width: 45%;
+    height: auto;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 5px #80808040;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    aspect-ratio: 1/1;
+    margin-left: 1000px;
+    margin-top: -900px;
+}
+
+.card__maintextC {
+    font-size: 80px;
+    margin-left: 150px;
+    margin-top: 400px;
+    color: black;
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
