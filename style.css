@@ -1,3 +1,10 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -14,8 +21,8 @@ header {
 
 .title {
     color: black;
-    font-size: 35px;
-    margin-left: 20px;
+    font-size: 40px;
+    margin: 0;
 }
 
 nav {
@@ -25,120 +32,83 @@ nav {
 .menu-item {
     list-style: none;
     padding: 10px;
-    margin-left: 60px;
+    margin-left: 30px;
     font-size: 20px;
     color: black;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 24px;
-}
-
-.cardI {
-    width: 45%;
-    height: auto;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0px 0px 5px 5px #80808040;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
-    aspect-ratio: 1/1;
-    margin-left: 5%;
-    margin-top: 40px;
-}
-
-.card__maintextI {
-    font-size: 80px;
-    margin-left: 100px;
-    margin-top: 400px;
-    color: black;
-}
-
-.cardC {
-    width: 45%;
-    height: auto;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0px 0px 5px 5px #80808040;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
-    aspect-ratio: 1/1;
-    margin-left: 1000px;
-    margin-top: -900px;
-}
-
-.card__maintextC {
-    font-size: 80px;
-    margin-left: 150px;
-    margin-top: 400px;
-    color: black;
+    text-decoration: none;
 }
 
 .card {
     width: 100%;
-    height: 580px;
+    background-color: white;
     border-radius: 30px;
     overflow: hidden;
-    box-shadow: 0px 0px 5px 5px #80808040;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, .2)
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    margin-bottom: 20px;
 }
 
 .card__textbox {
-    width: 100%;
-    height: auto;
-    padding: 20px 18px;
-    background: #fff;
-    box-sizing: border-box;
+    padding: 20px;
 }
 
 .card__titletext {
     font-size: 50px;
     font-weight: bold;
-    line-height: normal;
+    margin: 0 0 10px 0;
     color: #000000;
-}
-
-.card__titletext1 {
-    font-size: 30px;
-}
-
-.card__maintext1 {
-    font-size: 15px;
-    line-height: 150%;
-    color: #000000;
-}
-
-.card2 {
-    width: 100%;
-    height: 420px;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0px 0px 5px 5px #80808040;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, .2)
 }
 
 hr {
-    border-top: 5px dotted;
+    border: none;
+    border-top: 5px dotted #000;
+    margin: 20px 0;
 }
 
-.card__titletext2 {
-    font-size: 30px;
-    margin-left: 20px;
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
-.card__maintext2 {
-    font-size: 25px;
+.card-item {
+    width: 48%;
+    aspect-ratio: 1 / 1;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 5px #80808040;
+    position: relative;
+    background-color: white;
+}
+
+.card__maintext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
     color: black;
-    line-height: 80px;
-    margin-left: 10px;
+    text-decoration: none;
 }
 
-body {
-    font-family: 'Noto Sans JP', sans-serif;
+.contact {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
 }
 
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+    }
 
-.support {
-    margin-left: 30px;
-    color: black;
-    font-size: 15px;
+    .card-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .card__maintext {
+        font-size: 60px;
+    }
 }
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
