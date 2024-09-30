@@ -35,67 +35,6 @@ header h1 {
     font-size: 24px;
 }
 
-.card {
-    width: 100%;
-    height: 580px;
-    border-radius: 30px;
-    overflow: hidden;
-    box-shadow: 0px 0px 5px 5px #80808040;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, .2)
-}
-
-.card__textbox {
-    width: 100%;
-    height: auto;
-    padding: 20px 18px;
-    background: #fff;
-    box-sizing: border-box;
-}
-
-.card__titletext {
-    font-size: 50px;
-    font-weight: bold;
-    line-height: normal;
-    color: #000000;
-}
-
-.card__titletext1 {
-    font-size: 30px;
-}
-
-.card__maintext1 {
-    font-size: 15px;
-    line-height: 150%;
-    color: #000000;
-}
-
-hr {
-    border-top: 5px dotted;
-}
-
-.card__titletext2 {
-    font-size: 30px;
-    margin-left: 10px;
-}
-
-.card__maintext2 {
-    font-size: 30px;
-    color: black;
-    line-height: 75px;
-    margin-left: 10px;
-}
-
-body {
-    font-family: 'Noto Sans JP', sans-serif;
-}
-
-
-.support {
-    margin-left: 30px;
-    color: black;
-    font-size: 15px;
-}
-
 .cardI {
     width: 45%;
     height: auto;
@@ -132,4 +71,74 @@ body {
     margin-left: 150px;
     margin-top: 400px;
     color: black;
+}
+
+.card {
+    width: 100%;
+    height: 580px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 5px #80808040;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2)
+}
+
+.card__textbox {
+    width: 100%;
+    height: auto;
+    padding: 20px 18px;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.card__titletext {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: normal;
+    color: #000000;
+}
+
+.card__titletext1 {
+    font-size: 30px;
+}
+
+.card__maintext1 {
+    font-size: 15px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.card2 {
+    width: 100%;
+    height: 420px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 5px #80808040;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2)
+}
+
+hr {
+    border-top: 5px dotted;
+}
+
+.card__titletext2 {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.card__maintext2 {
+    font-size: 25px;
+    color: black;
+    line-height: 80px;
+    margin-left: 10px;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+.support {
+    margin-left: 30px;
+    color: black;
+    font-size: 15px;
 }
