@@ -37,7 +37,7 @@ header h1 {
 
 .card {
     width: 100%;
-    height: auto;
+    height: 580px;
     border-radius: 30px;
     overflow: hidden;
     box-shadow: 0px 0px 5px 5px #80808040;
@@ -55,7 +55,7 @@ header h1 {
 .card__titletext {
     font-size: 50px;
     font-weight: bold;
-    line-height: 125%;
+    line-height: normal;
     color: #000000;
 }
 
@@ -91,7 +91,9 @@ body {
 
 
 .support {
-    margin-left: 100px;
+    margin-left: 30px;
+    color: black;
+    font-size: 15px;
 }
 
 .cardI {
@@ -102,7 +104,7 @@ body {
     box-shadow: 0px 0px 5px 5px #80808040;
     box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
     aspect-ratio: 1/1;
-    margin-left: 70px;
+    margin-left: 5%;
     margin-top: 40px;
 }
 
@@ -131,5 +133,3 @@ body {
     margin-top: 400px;
     color: black;
 }
-
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
