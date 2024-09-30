@@ -52,10 +52,13 @@ nav {
 }
 
 .card__titletext {
-    font-size: 50px;
-    font-weight: bold;
-    margin: 0 0 10px 0;
-    color: #000000;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.card__titletext1 {
+    font-size: 30px;
+    margin-left: 20px;
 }
 
 hr {
@@ -113,11 +116,13 @@ hr {
 
 .card2 {
     width: 100%;
-    height: 420px;
+    height: auto;
     border-radius: 30px;
-    overflow: hidden;;
+    overflow: hidden;
+    ;
     box-shadow: 0px 0px 5px 5px #80808040;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, .2)
+    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
+    background-color: white;
 }
 
 .card__titletext2 {
