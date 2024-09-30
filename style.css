@@ -60,11 +60,11 @@ header h1 {
 }
 
 .card__titletext1 {
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .card__maintext1 {
-    font-size: 25px;
+    font-size: 15px;
     line-height: 150%;
     color: #000000;
 }
