@@ -19,11 +19,6 @@ header {
     margin-bottom: 20px;
 }
 
-.title {
-    color: black;
-    font-size: 40px;
-    margin: 0;
-}
 
 nav {
     display: flex;
@@ -31,11 +26,36 @@ nav {
 
 .menu-item {
     list-style: none;
-    padding: 10px;
-    margin-left: 30px;
-    font-size: 20px;
+    padding: 0.7vw;
+    margin-left: 2vw;
+    font-size: 1.36vw;
     color: black;
     text-decoration: none;
+}
+
+.title {
+    color: black;
+    font-size: 2.7vw;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 768px){.menu-item {
+    list-style: none;
+    padding: 0vw;
+    margin-left: 4vw;
+    font-size: 3.2vw;
+    color: black;
+    text-decoration: none;
+
+}
+
+.title {
+    color: black;
+    font-size: 3.5vw;
+    margin: 0;
+}
+
 }
 
 .card {
@@ -88,7 +108,7 @@ hr {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 80px;
+    font-size: 5.44vw;
     color: black;
     text-decoration: none;
 }
@@ -110,9 +130,10 @@ hr {
     }
 
     .card__maintext {
-        font-size: 60px;
+        font-size: 10.88vw;
     }
 }
+
 
 .card2 {
     width: 100%;
@@ -137,4 +158,4 @@ hr {
     margin-left: 10px;
 }
 
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+ @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
