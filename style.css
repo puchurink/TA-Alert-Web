@@ -117,9 +117,41 @@ hr {
 /*お問い合わせ*/
 .contact {
     text-align: center;
-    font-size: 16px;
-    margin-top: 20px;
+    font-size: 1.08vw;
+    margin-top: 1.35vw;
 }
+
+.card__maintext1{
+    font-size: 1.2vw;
+    text-decoration: none;
+}
+
+/*creditの名前の装飾*/
+.card__maintext__for__credit {
+    box-sizing: border-box;
+    font-size: 1.69vw;
+    color: black;
+    line-height: 5.4vw;
+    margin-left: 0.675vw;
+}
+/*contactの装飾*/
+.card__maintext__for__contact{
+    box-sizing: border-box;
+    font-size: 1.013vw;
+    color: black;
+    line-height: 2.027vw;
+    margin-left: 0.675vw;
+}
+
+/*contactページのメールアドレスの装飾*/
+
+.contact2 {
+    font-size:1.35vw;
+    line-height: 5.40vw;
+    margin-left: 0.67vw;
+
+}
+
 
 
 /*横の解像度が768px以下の場合の処理*/
@@ -173,32 +205,40 @@ hr {
         text-decoration: none;
         font-size: 10.88vw;
     }
-}
+
+    .card__titletext {
+            font-size: 30px;
+            margin-left: 20px;
+    }
+
+    .card__maintext1{
+       font-size: 16px;
+    }
+
+    .card__maintext__for__credit {
+        box-sizing: border-box;
+        font-size: 25px;
+        color: black;
+        line-height: 80px;
+        margin-left: 10px;
+    }
+
+    /*contactの装飾*/
+    .card__maintext__for__contact{
+        box-sizing: border-box;
+        font-size: 15px;
+        color: black;
+        line-height: 30px;
+        margin-left: 10px;
+    }
+    
+    .contact2 {
+        font-size:20px;
+        line-height: 80px;
+        margin-left: 10px;
+    }
+    
+ }
 /*ここまで*/
 
-
-/*creditの名前の装飾*/
-.card__maintext__for__credit {
-    box-sizing: border-box;
-    font-size: 25px;
-    color: black;
-    line-height: 80px;
-    margin-left: 10px;
-}
-
-/*contactの装飾*/
-.card__maintext__for__contact{
-    box-sizing: border-box;
-    font-size: 15px;
-    color: black;
-    line-height: 30px;
-    margin-left: 10px;
-}
-
-.contact2 {
-    font-size:20px;
-    line-height: 80px;
-    margin-left: 10px;
-
-}
 
