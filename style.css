@@ -1,22 +1,27 @@
+/*フォントをnotosansjpに指定*/
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+
 body {
     font-family: 'Noto Sans JP', sans-serif;
-    margin: 0;
-    padding: 20px;
+    margin: 0; /*ブラウザの初期marginをリセット*/
+    padding: 20px;/*ブラウザの縁とbodyの間に20pxの余白を追加*/
     background-color: #f0f0f0;
 }
 
+
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between;/*headerの左右を左詰めに指定*/
+    align-items: center;/*headerの中身の上下を中央揃えに指定*/
     width: 100%;
-    height: 60px;
+    height: 4.08vw;
     background-color: white;
-    box-shadow: 0px 0px 5px 5px #80808040;
-    border-radius: 30px;
-    padding: 0 20px;
-    box-sizing: border-box;
-    margin-bottom: 20px;
+    box-shadow: 0px 0px 5px 5px #80808040;/*headerの周囲に影を追加*/
+    border-radius: 40px;/*headerの四つ角を丸める*/
+    padding: 0 20px;/*headerの縁と文字の余白を追加*/
+    box-sizing: border-box;/*スマホ対応に必要*/
+    margin-bottom: 20px;/*bodyとheaderとの間の余白を追加*/
 }
 
 
@@ -24,6 +29,16 @@ nav {
     display: flex;
 }
 
+
+/*hrを点線化*/
+hr {
+    border: none;
+    border-top: 5px dotted #000;
+    margin: 20px 0;
+}
+
+
+/*haederのTAAlert以外の文字*/
 .menu-item {
     list-style: none;
     padding: 0.7vw;
@@ -33,6 +48,8 @@ nav {
     text-decoration: none;
 }
 
+
+/*ヘッダーのTAalert*/
 .title {
     color: black;
     font-size: 2.7vw;
@@ -40,52 +57,31 @@ nav {
 }
 
 
-@media screen and (max-width: 768px){.menu-item {
-    list-style: none;
-    padding: 0vw;
-    margin-left: 4vw;
-    font-size: 3.2vw;
-    color: black;
-    text-decoration: none;
-
-}
-
-.title {
-    color: black;
-    font-size: 3.5vw;
-    margin: 0;
-}
-
-}
-
+/*bodyの後ろ側のカード*/
 .card {
     width: 100%;
     background-color: white;
     border-radius: 30px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
-    margin-bottom: 20px;
+    height: auto;
+    box-shadow: 0px 0px 5px 5px #80808040;
+    
 }
 
+
+/*後ろのカードと前のカードとの余白追加*/
 .card__textbox {
     padding: 20px;
 }
 
+
+/*bodyの子見出しの設定*/
 .card__titletext {
-    font-size: 30px;
+    font-size: 2.2vw;
     margin-left: 1.36vw;
 }
 
-.card__titletext1 {
-    font-size: 30px;
-    margin-left: 1.36vw;
-}
-
-hr {
-    border: none;
-    border-top: 5px dotted #000;
-    margin: 20px 0;
-}
 
 .card-container {
     display: flex;
@@ -93,6 +89,8 @@ hr {
     margin-top: 20px;
 }
 
+
+/*前のカード*/
 .card-item {
     width: 48%;
     aspect-ratio: 1 / 1;
@@ -103,6 +101,8 @@ hr {
     background-color: white;
 }
 
+
+/*card内の文字の位置調整*/
 .card__maintext {
     position: absolute;
     top: 50%;
@@ -113,13 +113,47 @@ hr {
     text-decoration: none;
 }
 
+
+/*お問い合わせ*/
 .contact {
     text-align: center;
     font-size: 16px;
     margin-top: 20px;
 }
 
+
+/*横の解像度が768px以下の場合の処理*/
 @media (max-width: 768px) {
+    header {
+        display: flex;
+        justify-content: space-between;/*headerの左右を左詰めに指定*/
+        align-items: center;/*headerの中身の上下を中央揃えに指定*/
+        width: 100%;
+        height: 60px;/*headerの縦幅を60pxに指定*/
+        background-color: white;
+        box-shadow: 0px 0px 5px 5px #80808040;/*headerの周囲に影を追加*/
+        border-radius: 40px;/*headerの四つ角を丸める*/
+        padding: 0 20px;/*headerの縁と文字の余白を追加*/
+        box-sizing: border-box;/*スマホ対応に必要*/
+        margin-bottom: 20px;/*bodyとheaderとの間の余白を追加*/
+    }
+
+    .menu-item {
+        list-style: none;
+        padding: 0vw;
+        margin-left: 4vw;
+        font-size: 3.2vw;
+        color: black;
+        text-decoration: none;
+    
+    }
+    
+    .title {
+        color: black;
+        font-size: 4.3vw;
+        margin: 0;
+    }
+
     .card-container {
         flex-direction: column;
     }
@@ -130,32 +164,24 @@ hr {
     }
 
     .card__maintext {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        
+        color: black;
+        text-decoration: none;
         font-size: 10.88vw;
     }
 }
+/*ここまで*/
 
 
-.card2 {
-    width: 100%;
-    height: auto;
-    border-radius: 30px;
-    overflow: hidden;
-    ;
-    box-shadow: 0px 0px 5px 5px #80808040;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, .2);
-    background-color: white;
-}
-
-.card__titletext2 {
-    font-size: 30px;
-    margin-left: 1.36vw;
-}
-
-.card__maintext2 {
+/*creditの名前の装飾*/
+.card__maintext__for__credit {
+    box-sizing: border-box;
     font-size: 25px;
     color: black;
     line-height: 80px;
     margin-left: 10px;
 }
-
- @import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
