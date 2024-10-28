@@ -185,3 +185,20 @@ hr {
     line-height: 80px;
     margin-left: 10px;
 }
+
+/*contactの装飾*/
+.card__maintext__for__contact{
+    box-sizing: border-box;
+    font-size: 15px;
+    color: black;
+    line-height: 30px;
+    margin-left: 10px;
+}
+
+.contact2 {
+    font-size:20px;
+    line-height: 80px;
+    margin-left: 10px;
+
+}
+
