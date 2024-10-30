@@ -237,6 +237,13 @@ hr {
         line-height: 80px;
         margin-left: 10px;
     }
+
+    .contact {
+    text-align: center;
+    font-size: 16px
+    margin-top: 20px;
+}
+
     
  }
 /*ここまで*/
